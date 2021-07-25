@@ -1,0 +1,24 @@
+{
+  "name": "api_rest_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "swagger-autogen": "node src/swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.27.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "prisma": "^2.27.0",
+    "swagger-autogen": "^2.11.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
